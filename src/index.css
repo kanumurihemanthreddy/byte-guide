@@ -8,33 +8,48 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    --background: 210 11% 15%;
+    --foreground: 213 31% 91%;
 
-    --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card: 217 19% 18%;
+    --card-foreground: 213 31% 91%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover: 217 19% 18%;
+    --popover-foreground: 213 31% 91%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    --primary: 200 98% 39%;
+    --primary-foreground: 217 19% 18%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 217 19% 27%;
+    --secondary-foreground: 213 31% 91%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --muted: 217 19% 23%;
+    --muted-foreground: 218 11% 65%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --accent: 142 76% 36%;
+    --accent-foreground: 217 19% 18%;
 
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive: 0 93% 73%;
+    --destructive-foreground: 217 19% 18%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --border: 217 19% 27%;
+    --input: 217 19% 23%;
+    --ring: 200 98% 39%;
+
+    --code-bg: 217 19% 21%;
+    --code-border: 217 19% 30%;
+    --syntax-keyword: 200 98% 39%;
+    --syntax-string: 142 76% 36%;
+    --syntax-number: 45 93% 47%;
+    --syntax-comment: 218 11% 65%;
+    --syntax-error: 0 93% 73%;
+    --syntax-warning: 45 93% 47%;
+
+    --gradient-primary: linear-gradient(135deg, hsl(200 98% 39%), hsl(142 76% 36%));
+    --gradient-code: linear-gradient(180deg, hsl(217 19% 18%), hsl(217 19% 21%));
+    
+    --shadow-glow: 0 0 30px hsl(200 98% 39% / 0.3);
+    --shadow-elegant: 0 10px 30px -10px hsl(0 0% 0% / 0.3);
 
     --radius: 0.5rem;
 
